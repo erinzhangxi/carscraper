@@ -1,0 +1,21 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper-worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.17",
+    "puppeteer": "^3.3.0",
+    "request": "^2.88.2",
+    "urijs": "^1.19.2"
+  }
+}
